@@ -58,3 +58,12 @@ p, li, figcaption {
   background-color: var(--white);
   padding: 16px;
 }
+
+.preview-card-content .category {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
