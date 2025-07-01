@@ -52,11 +52,12 @@ p, li, figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 1rem;
 }
 
 .preview-card-content {
   background-color: var(--white);
-  padding: 16px;
+  padding: 2rem;
 }
 
 .preview-card-content .category {
