@@ -20,6 +20,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 body {
@@ -51,4 +52,9 @@ p, li, figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.preview-card-content {
+  background-color: var(--white);
+  padding: 16px;
 }
