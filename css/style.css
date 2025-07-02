@@ -20,6 +20,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 body {
@@ -43,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li, figcaption {
   text-wrap: pretty;
+  font-family: var(--font-text);
 }
 
 .main-container {
@@ -51,4 +53,63 @@ p, li, figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 1rem;
 }
+
+.preview-card,
+.preview-card-content {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.preview-card-content {
+  background-color: var(--white);
+  padding: 2rem;
+}
+
+.preview-card-content .category {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.preview-card-content .title {
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 1.1;
+  color: var(--black);
+  margin: 1rem 0 1.5rem 0;
+}
+
+.preview-card-content .description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.preview-card-content .price-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.preview-card-content .price-container .current-price {
+  font-family: var(--font-title);
+  color: var(--green-500);
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.preview-card-content .price-container .old-price {
+  font-size: 0.9rem;
+  color: var(--grey);
+  text-decoration: line-through;
+  text-decoration-thickness: 0.5px;
+}
+
