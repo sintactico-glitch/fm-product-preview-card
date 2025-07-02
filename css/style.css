@@ -56,6 +56,10 @@ p, li, figcaption {
   padding: 0 1rem;
 }
 
+.preview-card {
+  max-width: 400px;
+}
+
 .preview-card,
 .preview-card-content {
   border-radius: 0 0 1rem 1rem;
