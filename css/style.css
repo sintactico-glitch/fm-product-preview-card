@@ -162,7 +162,7 @@ p, li, figcaption {
 @media only screen and (min-width: 768px) {
   .preview-card {
     display: flex;
-    max-width: 620px;
+    max-width: 600px;
   }
 
   .preview-card-image {
@@ -171,7 +171,7 @@ p, li, figcaption {
   
   .preview-card-content {
     max-width: 50%;
-    padding: 3rem;
+    padding: 2.5rem;
   }
 
   .preview-card,
