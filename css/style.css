@@ -60,6 +60,22 @@ p, li, figcaption {
   max-width: 400px;
 }
 
+.preview-card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.preview-card,
+.preview-card-image {
+  border-radius: 1rem 1rem 0 0 ;
+}
+
+/*
+  TO-DO: Issue # 4 change layout of card for desktop, including image
+*/
+
+
 .preview-card,
 .preview-card-content {
   border-radius: 0 0 1rem 1rem;
