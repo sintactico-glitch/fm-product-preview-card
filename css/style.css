@@ -56,6 +56,11 @@ p, li, figcaption {
   padding: 0 1rem;
 }
 
+.preview-card,
+.preview-card-content {
+  border-radius: 0 0 1rem 1rem;
+}
+
 .preview-card-content {
   background-color: var(--white);
   padding: 2rem;
