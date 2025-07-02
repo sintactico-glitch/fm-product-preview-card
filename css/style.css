@@ -79,6 +79,10 @@ p, li, figcaption {
 .preview-card-content {
   background-color: var(--white);
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .preview-card-content .category {
@@ -158,7 +162,7 @@ p, li, figcaption {
 @media only screen and (min-width: 768px) {
   .preview-card {
     display: flex;
-    max-width: 70%;
+    max-width: 620px;
   }
 
   .preview-card-image {
@@ -167,6 +171,7 @@ p, li, figcaption {
   
   .preview-card-content {
     max-width: 50%;
+    padding: 3rem;
   }
 
   .preview-card,
@@ -177,6 +182,10 @@ p, li, figcaption {
   .preview-card,
   .preview-card-content {
     border-radius: 0 1rem 1rem 0;
+  }
+
+  .preview-card .price-container {
+    margin: 1rem 0;
   }
 
 }
