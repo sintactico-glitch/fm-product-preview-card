@@ -113,29 +113,3 @@ p, li, figcaption {
   text-decoration-thickness: 0.5px;
 }
 
-.preview-card-content .cart-button {
-  border: none;
-  width: 100%;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  background-color: var(--green-500);
-  color: var(--white);
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease-in-out;
-}
-
-.preview-card-content .cart-button .icon {
-  margin-right: 1rem;
-}
-
-.preview-card-content .cart-button:hover,
-.preview-card-content .cart-button:focus,
-.preview-card-content .cart-button:active {
-  background-color: var(--green-700);
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-  color: var(--white);
-}
