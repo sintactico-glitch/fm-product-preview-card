@@ -71,11 +71,6 @@ p, li, figcaption {
   border-radius: 1rem 1rem 0 0 ;
 }
 
-/*
-  TO-DO: Issue # 4 change layout of card for desktop, including image
-*/
-
-
 .preview-card,
 .preview-card-content {
   border-radius: 0 0 1rem 1rem;
@@ -84,6 +79,10 @@ p, li, figcaption {
 .preview-card-content {
   background-color: var(--white);
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .preview-card-content .category {
@@ -158,4 +157,35 @@ p, li, figcaption {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   color: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+  .preview-card {
+    display: flex;
+    max-width: 620px;
+  }
+
+  .preview-card-image {
+    height: 100%;
+  }
+  
+  .preview-card-content {
+    max-width: 50%;
+    padding: 3rem;
+  }
+
+  .preview-card,
+  .preview-card-image {
+    border-radius: 1rem 0 0 1rem ;
+  }
+
+  .preview-card,
+  .preview-card-content {
+    border-radius: 0 1rem 1rem 0;
+  }
+
+  .preview-card .price-container {
+    margin: 1rem 0;
+  }
+
 }
