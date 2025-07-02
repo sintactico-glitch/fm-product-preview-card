@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li, figcaption {
   text-wrap: pretty;
+  font-family: var(--font-text);
 }
 
 .main-container {
@@ -75,4 +76,11 @@ p, li, figcaption {
   line-height: 1.1;
   color: var(--black);
   margin: 1rem 0 1.5rem 0;
+}
+
+.preview-card-content .description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--grey);
+  font-weight: 500;
 }
