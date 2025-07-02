@@ -84,3 +84,26 @@ p, li, figcaption {
   color: var(--grey);
   font-weight: 500;
 }
+
+.preview-card-content .price-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.preview-card-content .price-container .current-price {
+  font-family: var(--font-title);
+  color: var(--green-500);
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.preview-card-content .price-container .old-price {
+  font-size: 0.9rem;
+  color: var(--grey);
+  text-decoration: line-through;
+  text-decoration-thickness: 0.5px;
+}
